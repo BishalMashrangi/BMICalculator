@@ -19,6 +19,7 @@
        android:textSize="20dp"
        android:layout_margin="20dp"/>
         <EditText
+            android:id="@+id/etheight"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
@@ -32,7 +33,6 @@
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:text="(Centimeters)"
-
             android:layout_marginLeft="160dp"
             android:textSize="20dp"
             android:layout_marginTop="20dp"/>
@@ -50,6 +50,7 @@
             android:layout_margin="20dp"
             android:textSize="20dp" />
         <EditText
+            android:id="@+id/etweight"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
@@ -64,7 +65,6 @@
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:text="(Kilograms)"
-
             android:layout_marginLeft="170dp"
             android:textSize="20dp"
             android:layout_marginTop="20dp"/>
@@ -73,6 +73,7 @@
 
 
     <Button
+        android:id="@+id/btncompute"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Compute BMI"
@@ -91,7 +92,6 @@
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:text="Your BMI:"
-
             android:layout_marginLeft="160dp"
             android:textSize="20dp"
             android:layout_marginTop="20dp" />
@@ -104,16 +104,13 @@
             android:layout_height="wrap_content">
 
             <EditText
+                android:id="@+id/tvOutput"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="160dp"
                 android:textSize="20dp"/>
 
-
-
-
-
-    </LinearLayout>
+        </LinearLayout>
 </LinearLayout>
 
 
